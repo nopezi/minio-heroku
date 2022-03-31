@@ -4,4 +4,4 @@ chmod +x minio
 export MINIO_ACCESS_KEY="$ACCESS_KEY"
 export MINIO_SECRET_KEY="$SECRET_KEY"
 export PORT="$PORT"
-./minio server --address :$PORT /mnt/minio/data
+./minio server --address :80 /mnt/minio/data
