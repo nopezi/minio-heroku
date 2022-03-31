@@ -10,6 +10,10 @@
     "SECRET_KEY": {
        "description": "MINIO_SECRET_KEY, please change to your secret key",
        "value": "minio123"
+     },
+     "PORT": {
+       "description": "PORT, change your port static",
+       "value": "80"
      }
   },
   "website": "https://github.com/koori69/heroku-minio",
