@@ -1,5 +1,5 @@
 cd /minio
-# wget https://dl.minio.io/server/minio/release/linux-amd64/minio
+wget https://dl.minio.io/server/minio/release/linux-amd64/minio
 chmod +x minio
 # chmod -R 777 minio
 # export MINIO_ROOT_USER="$ACCESS_KEY"
